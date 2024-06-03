@@ -7,6 +7,7 @@
     <link href="./src/output.css" rel="stylesheet" />
   </head>
   <body class="flex flex-col items-center justify-start">
+    <!-- Top Images -->
     <div class="px-10 py-20">
       <div class="w-full flex flex-wrap flex-row justify-center gap-5">
         <img class="rounded-xl w-40" src="/resources/images/first.png" alt="" />
@@ -18,89 +19,101 @@
         <img class="rounded-xl w-40" src="/resources/images/third.png" alt="" />
       </div>
       <div class="h-20"></div>
-      <div class="w-full flex items-center justify-center">
-        <div class="flex flex-wrap gap-5">
-          <div class="flex flex-col items-center justify-center">
-            <div>
-              <img src="/resources/svgs/tree_1.svg" alt="" />
-            </div>
-            <div class="flex flex-wrap text-center">
-              1 ha soukromého <br />
-              lesoparku
+      <!-- Icons and text -->
+      <div class="text-center mt-10">
+        <h2 class="text-2xl font-semibold mb-6">Plusy</h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mx-6">
+          <div class="flex flex-col items-center">
+            <img src="/resources/svgs/tree_1.svg" alt="Icon 1" class="mb-2" />
+            <span>1 ha soukromého lesoparku</span>
+          </div>
+          <div class="flex flex-col items-center">
+            <img src="/resources/svgs/adidas_2.svg" alt="Icon 2" class="mb-2" />
+            <span>Wellness s bazénem a saunou</span>
+          </div>
+          <div class="flex flex-col items-center">
+            <img src="/resources/svgs/doctor_3.svg" alt="Icon 3" class="mb-2" />
+            <span>Venkovní posilovna a tělocvična v interiéru</span>
+          </div>
+          <div class="flex flex-col items-center">
+            <img src="/resources/svgs/bus_4.svg" alt="Icon 4" class="mb-2" />
+            <span>Umývárna kol a psů</span>
+          </div>
+          <div class="flex flex-col items-center">
+            <img src="/resources/svgs/gym_5.svg" alt="Icon 5" class="mb-2" />
+            <span>Místnost pro rodinného lékaře</span>
+          </div>
+          <div class="flex flex-col items-center">
+            <img src="/resources/svgs/shower_6.svg" alt="Icon 6" class="mb-2" />
+            <span>Shuttle - privátní doprava</span>
+          </div>
+          <div class="flex flex-col items-center">
+            <img src="/resources/svgs/kids_7.svg" alt="Icon 7" class="mb-2" />
+            <span>Dětský klub</span>
+          </div>
+          <div class="flex flex-col items-center">
+            <img src="/resources/svgs/map_8.svg" alt="Icon 8" class="mb-2" />
+            <span>Přímé napojení na cyklostezku</span>
+          </div>
+        </div>
+      </div>
+      <!-- Picture and text container-->
+      <div class="container mx-auto p-6">
+        <!-- For desktop view -->
+        <div class="hidden md:grid md:grid-cols-2 gap-4">
+          <div class="bg-purple-100 rounded-lg shadow-lg">
+            <img
+              src="/resources/images/fourth.png"
+              alt="Building Image"
+              class="w-full h-auto mb-4 rounded-lg shadow-lg"
+            />
+            <div class="p-6">
+              <p>
+                Vestibulum fermentum tortor id mi. Phasellus rhoncus. Fusce
+                tellus odio, dapibus id fermentum quis, suscipit id erat. Sed ut
+                perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium. Totam rem aperiam, eaque ipsa
+                quae ab illo inventore veritatis et quasi architecto beatae
+                vitae dicta sunt explicabo. Aliquam in lorem sit amet leo
+                accumsan lacinia.
+              </p>
+              <p class="mt-4">
+                Aliquam erat volutpat. Itaque earum rerum hic tenetur a sapiente
+                delectus, ut aut reiciendis voluptatibus maiores alias
+                consequatur aut perferendis doloribus asperiores repellat. Fusce
+                dui leo, imperdiet in, aliquam sit amet, feugiat eu, orci.
+              </p>
             </div>
           </div>
-          <div class="flex flex-col items-center justify-center">
-            <div>
-              <img src="/resources/svgs/adidas_2.svg" alt="" />
-            </div>
-            <div class="text-center">
-              Wellness s bazénem a <br />
-              saunou
-            </div>
-          </div>
-          <div class="flex flex-col items-center justify-center">
-            <div>
-              <img src="/resources/svgs/doctor_3.svg" alt="" />
-            </div>
-            <div
-              class="text-center text-zinc-950 text-xs font-bold font-['Roboto'] leading-none"
-            >
-              Místnost pro rodinného <br />
-              lékaře
+        </div>
+
+        <!-- For mobile view -->
+        <div class="md:hidden">
+          <div class="bg-purple-100 rounded-lg shadow-lg">
+            <img
+              src="/resources/images/fourth.png"
+              alt="Building Image"
+              class="w-full h-auto mb-4 rounded-lg shadow-lg"
+            />
+            <div class="p-6">
+              <p>
+                Kromě luxusního bydlení nabízí tento projekt také komplexní řadu
+                služeb, které zvyšují kvalitu života svých obyvatel. Moderní
+                wellness centrum se saunou a masážní místností zaručuje
+                odpočinek a relaxaci. Venkovní posilovna se stane oblíbeným
+                místem pro ty, kteří si chtějí užít cvičení na čerstvém vzduchu.
+              </p>
+              <p class="mt-4">
+                Pro rodiny s dětmi je zde připraven dětský klub s různými
+                aktivitami a hrami, kde se budou moci děti bavit a rozvíjet svou
+                kreativitu. Pro spokojenost všech obyvatel projektu je zde
+                dokonce místnost pro rodinného lékaře, který bude mít své
+                pravidelné konzultační hodiny přímo v areálu.
+              </p>
             </div>
           </div>
         </div>
       </div>
-      <!-- <div class="flex flex-col items-center">
-          <img src="/resources/svgs/doctor_3.svg" alt="Tree" class="w-15" />
-          <div class="text-center text-sm font-bold leading-tight mt-2">
-            Místnost pro rodinného lékaře
-          </div>
-        </div>
-        <div class="flex flex-col items-center">
-          <img src="/resources/svgs/bus_4.svg" alt="Shuttle" class="w-16" />
-          <div class="text-center text-sm font-bold leading-tight mt-2">
-            Shuttle privátní doprava
-          </div>
-        </div>
-        <div class="flex flex-col items-center">
-          <img src="/resources/svgs/gym_5.svg" alt="Gym" class="w-16 h-16" />
-          <div class="text-center text-sm font-bold leading-tight mt-2">
-            Venkovní posilovna a tělocvična v interiéru
-          </div>
-        </div>
-        <div class="flex flex-col items-center">
-          <img
-            src="/resources/svgs/shower_6.svg"
-            alt="Shower"
-            class="w-16 h-16"
-          />
-          <div
-            class="text-center text-zinc-950 text-sm font-bold leading-tight mt-2"
-          >
-            Umývárna kol a psů
-          </div>
-        </div>
-        <div class="flex flex-col items-center">
-          <img
-            src="/resources/svgs/kids_7.svg"
-            alt="Kids Club"
-            class="w-16 h-16"
-          />
-          <div
-            class="text-center text-zinc-950 text-sm font-bold leading-tight mt-2"
-          >
-            Dětský klub
-          </div>
-        </div>
-        <div class="flex flex-col items-center">
-          <img src="/resources/svgs/map_8.svg" alt="Map" class="w-16 h-16" />
-          <div
-            class="text-center text-zinc-950 text-sm font-bold leading-tight mt-2"
-          >
-            Přímé napojení na cyklostezku
-          </div>
-        </div> -->
     </div>
   </body>
 </html>
